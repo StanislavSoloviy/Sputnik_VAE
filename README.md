@@ -2,8 +2,10 @@
 Sputnik Task 2
 В данном програмном обеспечении реализован вариационный автоэнкодер.
 Архитектура модели представляет собой слои:
+
 	знкодер:
-		Conv2D(64, 3, padding="same", activation="relu", strides=(2, 2))
+ 
+	Conv2D(64, 3, padding="same", activation="relu", strides=(2, 2))
         Conv2D(128, 3, padding="same", activation="relu", strides=(2, 2))
         Conv2D(256, 3, padding="same", activation="relu", strides=(2, 2))
 		shape_before_flattening = K.int_shape(x)
