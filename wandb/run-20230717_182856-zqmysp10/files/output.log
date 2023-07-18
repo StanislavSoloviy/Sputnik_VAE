@@ -1,0 +1,19 @@
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.sample of <tensorflow.python.eager.polymorphic_function.tf_method_target.TfMethodTarget object at 0x0000016FB413A3E0>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.encode of <neural_network.NeuralNetwork object at 0x0000016FFB6F7220>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.decode of <neural_network.NeuralNetwork object at 0x0000016FFB6F7220>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+Epoch: 1, Test set ELBO: -101953.8515625, time elapse for current epoch: 2420.88086605072
+Epoch: 2, Test set ELBO: -100551.59375, time elapse for current epoch: 2337.9529139995575
+Epoch: 3, Test set ELBO: -99185.734375, time elapse for current epoch: 2336.4790103435516
+Epoch: 4, Test set ELBO: -96039.390625, time elapse for current epoch: 2347.0037598609924
+Epoch: 5, Test set ELBO: -95452.7578125, time elapse for current epoch: 2356.5078780651093
+Epoch: 6, Test set ELBO: -95324.0546875, time elapse for current epoch: 2350.618814468384
+Epoch: 7, Test set ELBO: -95290.109375, time elapse for current epoch: 2331.0678040981293
+Epoch: 8, Test set ELBO: -95273.3984375, time elapse for current epoch: 2344.101644515991
+Epoch: 9, Test set ELBO: -95069.6875, time elapse for current epoch: 2334.2362627983093
+Epoch: 10, Test set ELBO: -95153.8984375, time elapse for current epoch: 2338.182053089142

@@ -1,0 +1,10 @@
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.sample of <tensorflow.python.eager.polymorphic_function.tf_method_target.TfMethodTarget object at 0x0000015F576E0C70>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.encode of <neural_network.NeuralNetwork object at 0x0000015F234CB220>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.decode of <neural_network.NeuralNetwork object at 0x0000015F234CB220>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+Epoch: 1, Test set ELBO: -112032.0859375, time elapse for current epoch: 27.138152360916138

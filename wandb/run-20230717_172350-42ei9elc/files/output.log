@@ -1,0 +1,26 @@
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.sample of <tensorflow.python.eager.polymorphic_function.tf_method_target.TfMethodTarget object at 0x000001CCA03D1720>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.encode of <neural_network.NeuralNetwork object at 0x000001CCEBA2B220>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.decode of <neural_network.NeuralNetwork object at 0x000001CCEBA2B220>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+Epoch: 1, Test set ELBO: -110925.0625, time elapse for current epoch: 26.824432134628296
+Epoch: 2, Test set ELBO: -110353.6015625, time elapse for current epoch: 24.205920457839966
+Epoch: 3, Test set ELBO: -109982.859375, time elapse for current epoch: 22.45445466041565
+Epoch: 4, Test set ELBO: -106258.484375, time elapse for current epoch: 26.691503763198853
+Epoch: 5, Test set ELBO: -103572.2890625, time elapse for current epoch: 31.05665922164917
+Epoch: 6, Test set ELBO: -104014.859375, time elapse for current epoch: 25.227588415145874
+Epoch: 7, Test set ELBO: -103971.9140625, time elapse for current epoch: 35.32262110710144
+Epoch: 8, Test set ELBO: -103651.046875, time elapse for current epoch: 32.15170931816101
+Epoch: 9, Test set ELBO: -103352.828125, time elapse for current epoch: 26.294919729232788
+Epoch: 10, Test set ELBO: -103089.7890625, time elapse for current epoch: 24.245123386383057
+C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+WARNING:tensorflow:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:tensorflow:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Модель обучена
+Модель сохранена
+Время на обучение модели 312.14117620000616

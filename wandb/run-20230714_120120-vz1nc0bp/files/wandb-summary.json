@@ -1,0 +1,1 @@
+{"batch/loss": 0.039586521685123444, "batch/batch_step": 595, "batch/learning_rate": 0.0010000000474974513, "_timestamp": 1689310889.4673111, "_runtime": 8.626590251922607, "_step": 120, "epoch/loss": 0.039488762617111206, "epoch/epoch": 0, "epoch/learning_rate": 0.0010000000474974513, "_wandb": {"runtime": 11}}

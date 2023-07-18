@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\main.py", line 24, in <module>
+    model.train()
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\neural_network.py", line 153, in train
+    self.generate_and_save_images(0, test_sample)
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\neural_network.py", line 178, in generate_and_save_images
+    predictions = self.sample(z)
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\motom\AppData\Local\Temp\__autograph_generated_filex8hexwko.py", line 28, in tf__sample
+    retval_ = ag__.converted_call(ag__.ld(self).decode, (ag__.ld(eps),), dict(apply_sigmoid=True), fscope)
+  File "C:\Users\motom\AppData\Local\Temp\__autograph_generated_filegicl2hp4.py", line 10, in tf__decode
+    logits = ag__.converted_call(ag__.ld(self).decoder, (ag__.ld(z),), None, fscope)
+AttributeError: in user code:
+    File "C:\Users\motom\Desktop\Python\Sputnik_VAE\neural_network.py", line 84, in sample  *
+        return self.decode(eps, apply_sigmoid=True)
+    File "C:\Users\motom\Desktop\Python\Sputnik_VAE\neural_network.py", line 95, in decode  *
+        logits = self.decoder(z)
+    AttributeError: 'NeuralNetwork' object has no attribute 'decoder'

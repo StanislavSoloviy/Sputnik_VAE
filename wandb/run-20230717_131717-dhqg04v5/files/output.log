@@ -1,0 +1,40 @@
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.decode of <neural_network.NeuralNetwork object at 0x000001751B21BF70>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.encode of <neural_network.NeuralNetwork object at 0x000001751B21BF70>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+Epoch: 1, Test set ELBO: -114901.75, time elapse for current epoch: 83.20435738563538
+Epoch: 2, Test set ELBO: -114714.7421875, time elapse for current epoch: 81.45654916763306
+C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+WARNING:tensorflow:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:tensorflow:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Модель обучена
+Модель сохранена
+Время на обучение модели 215.11224369995762
+Traceback (most recent call last):
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\main.py", line 86, in <module>
+    plot_latent_images(model, 20)
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\main.py", line 35, in plot_latent_images
+    x_decoded = model.sample(z)
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\motom\AppData\Local\Temp\__autograph_generated_file1vdmquzl.py", line 28, in tf__sample
+    retval_ = ag__.converted_call(ag__.ld(self).decode, (ag__.ld(eps),), dict(apply_sigmoid=True), fscope)
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\neural_network.py", line 95, in decode
+    logits = self.__decoder(z)
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+    raise ValueError(
+ValueError: in user code:
+    File "C:\Users\motom\Desktop\Python\Sputnik_VAE\neural_network.py", line 84, in sample  *
+        return self.decode(eps, apply_sigmoid=True)
+    File "C:\Users\motom\Desktop\Python\Sputnik_VAE\neural_network.py", line 95, in decode  **
+        logits = self.__decoder(z)
+    File "C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+    ValueError: Input 0 of layer "model_1" is incompatible with the layer: expected shape=(None, 256), found shape=(1, 2)

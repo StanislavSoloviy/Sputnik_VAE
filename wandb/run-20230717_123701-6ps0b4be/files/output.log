@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\main.py", line 24, in <module>
+    model.train()
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\neural_network.py", line 153, in train
+    self.generate_and_save_images(0, test_sample)
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\neural_network.py", line 176, in generate_and_save_images
+    mean, logvar = self.encode(test_sample)
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\neural_network.py", line 87, in encode
+    mean, logvar = tf.split(self.encoder(x), num_or_size_splits=2, axis=1)
+AttributeError: 'NeuralNetwork' object has no attribute 'encoder'

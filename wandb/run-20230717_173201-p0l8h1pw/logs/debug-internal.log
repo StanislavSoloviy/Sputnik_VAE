@@ -1,0 +1,329 @@
+2023-07-17 17:32:01,358 INFO    StreamThr :23356 [internal.py:wandb_internal():86] W&B internal server running at pid: 23356, started at: 2023-07-17 17:32:01.357696
+2023-07-17 17:32:01,361 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status
+2023-07-17 17:32:01,365 INFO    WriterThread:23356 [datastore.py:open_for_write():85] open: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\run-p0l8h1pw.wandb
+2023-07-17 17:32:01,371 DEBUG   SenderThread:23356 [sender.py:send():369] send: header
+2023-07-17 17:32:01,373 DEBUG   SenderThread:23356 [sender.py:send():369] send: run
+2023-07-17 17:32:02,204 INFO    SenderThread:23356 [dir_watcher.py:__init__():211] watching files in: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files
+2023-07-17 17:32:02,204 INFO    SenderThread:23356 [sender.py:_start_run_threads():1100] run started: p0l8h1pw with start time 1689589921.363649
+2023-07-17 17:32:02,204 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 17:32:02,205 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: check_version
+2023-07-17 17:32:02,205 INFO    SenderThread:23356 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 17:32:02,206 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: check_version
+2023-07-17 17:32:02,961 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: run_start
+2023-07-17 17:32:02,997 DEBUG   HandlerThread:23356 [system_info.py:__init__():31] System info init
+2023-07-17 17:32:02,997 DEBUG   HandlerThread:23356 [system_info.py:__init__():46] System info init done
+2023-07-17 17:32:02,997 INFO    HandlerThread:23356 [system_monitor.py:start():181] Starting system monitor
+2023-07-17 17:32:02,998 INFO    SystemMonitor:23356 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-17 17:32:02,998 INFO    HandlerThread:23356 [system_monitor.py:probe():201] Collecting system info
+2023-07-17 17:32:03,002 INFO    SystemMonitor:23356 [interfaces.py:start():190] Started cpu monitoring
+2023-07-17 17:32:03,008 DEBUG   HandlerThread:23356 [system_info.py:probe():195] Probing system
+2023-07-17 17:32:03,009 INFO    SystemMonitor:23356 [interfaces.py:start():190] Started disk monitoring
+2023-07-17 17:32:03,016 INFO    SystemMonitor:23356 [interfaces.py:start():190] Started memory monitoring
+2023-07-17 17:32:03,039 INFO    SystemMonitor:23356 [interfaces.py:start():190] Started network monitoring
+2023-07-17 17:32:03,061 DEBUG   HandlerThread:23356 [gitlib.py:_init_repo():53] git repository is invalid
+2023-07-17 17:32:03,061 DEBUG   HandlerThread:23356 [system_info.py:probe():240] Probing system done
+2023-07-17 17:32:03,061 DEBUG   HandlerThread:23356 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.4', 'heartbeatAt': '2023-07-17T10:32:03.008488', 'startedAt': '2023-07-17T10:32:01.312889', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\motom\\Desktop\\Python\\Sputnik_VAE\\main.py', 'codePath': 'main.py', 'host': 'WS0001', 'username': 'Solsa', 'executable': 'C:\\Users\\motom\\Desktop\\Python\\Sputnik_VAE\\venv\\Scripts\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1600.0, 'min': 0.0, 'max': 1800.0}, 'cpu_freq_per_core': [{'current': 1600.0, 'min': 0.0, 'max': 1800.0}], 'disk': {'total': 463.34703063964844, 'used': 422.33208084106445}, 'memory': {'total': 15.810821533203125}}
+2023-07-17 17:32:03,061 INFO    HandlerThread:23356 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-17 17:32:03,061 INFO    HandlerThread:23356 [system_monitor.py:probe():214] Publishing system info
+2023-07-17 17:32:03,061 DEBUG   HandlerThread:23356 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-17 17:32:03,062 DEBUG   HandlerThread:23356 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-17 17:32:03,064 INFO    HandlerThread:23356 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-17 17:32:03,079 DEBUG   SenderThread:23356 [sender.py:send():369] send: files
+2023-07-17 17:32:03,079 INFO    SenderThread:23356 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-17 17:32:03,091 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:32:03,091 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:32:03,220 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-summary.json
+2023-07-17 17:32:03,220 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-metadata.json
+2023-07-17 17:32:03,221 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\requirements.txt
+2023-07-17 17:32:03,511 DEBUG   SenderThread:23356 [sender.py:send():369] send: telemetry
+2023-07-17 17:32:03,961 INFO    wandb-upload_0:23356 [upload_job.py:push():133] Uploaded file C:\Users\motom\AppData\Local\Temp\tmpjnru1a9pwandb\66yjlemp-wandb-metadata.json
+2023-07-17 17:32:04,226 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:32:06,247 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:32:07,147 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:32:08,267 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:32:12,187 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:32:17,345 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:32:18,105 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:32:18,106 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:32:22,455 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:32:27,656 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:32:33,156 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:32:33,157 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:32:33,458 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:32:34,187 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\config.yaml
+2023-07-17 17:32:36,165 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 17:32:36,167 DEBUG   SenderThread:23356 [sender.py:send():369] send: history
+2023-07-17 17:32:36,167 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 17:32:36,168 INFO    SenderThread:23356 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 17:32:36,256 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-summary.json
+2023-07-17 17:32:38,298 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:32:39,219 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:32:44,299 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:32:48,274 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:32:48,277 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:32:49,534 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:32:54,670 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:32:59,682 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:33:03,060 DEBUG   SystemMonitor:23356 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-17 17:33:03,062 DEBUG   SenderThread:23356 [sender.py:send():369] send: stats
+2023-07-17 17:33:03,182 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:33:03,187 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:33:04,775 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:33:04,777 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 17:33:04,778 DEBUG   SenderThread:23356 [sender.py:send():369] send: history
+2023-07-17 17:33:04,778 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 17:33:04,779 INFO    SenderThread:23356 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 17:33:05,303 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-summary.json
+2023-07-17 17:33:07,433 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:33:09,842 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:33:14,910 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:33:18,313 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:33:18,314 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:33:20,566 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:33:25,719 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:33:31,071 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:33:33,080 DEBUG   SenderThread:23356 [sender.py:send():369] send: stats
+2023-07-17 17:33:33,338 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:33:33,339 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:33:33,682 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 17:33:33,683 DEBUG   SenderThread:23356 [sender.py:send():369] send: history
+2023-07-17 17:33:33,684 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 17:33:33,685 INFO    SenderThread:23356 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 17:33:34,303 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-summary.json
+2023-07-17 17:33:36,344 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:33:36,700 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:33:41,772 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:33:46,868 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:33:48,367 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:33:48,368 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:33:52,651 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:33:57,695 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:34:00,331 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 17:34:00,332 DEBUG   SenderThread:23356 [sender.py:send():369] send: history
+2023-07-17 17:34:00,332 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 17:34:00,341 INFO    SenderThread:23356 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 17:34:00,887 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-summary.json
+2023-07-17 17:34:01,903 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:34:03,093 DEBUG   SenderThread:23356 [sender.py:send():369] send: stats
+2023-07-17 17:34:03,095 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:34:03,397 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:34:03,398 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:34:08,731 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:34:13,788 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:34:18,387 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:34:18,388 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:34:19,632 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:34:24,696 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:34:28,997 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 17:34:28,999 DEBUG   SenderThread:23356 [sender.py:send():369] send: history
+2023-07-17 17:34:28,999 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 17:34:29,000 INFO    SenderThread:23356 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 17:34:29,265 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-summary.json
+2023-07-17 17:34:30,013 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:34:30,279 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:34:33,093 DEBUG   SenderThread:23356 [sender.py:send():369] send: stats
+2023-07-17 17:34:33,403 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:34:33,404 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:34:35,647 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:34:40,697 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:34:45,751 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:34:48,415 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:34:48,416 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:34:51,648 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:34:55,161 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 17:34:55,162 DEBUG   SenderThread:23356 [sender.py:send():369] send: history
+2023-07-17 17:34:55,162 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 17:34:55,169 INFO    SenderThread:23356 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 17:34:56,141 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-summary.json
+2023-07-17 17:34:56,142 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:34:57,198 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:35:02,275 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:35:03,097 DEBUG   SenderThread:23356 [sender.py:send():369] send: stats
+2023-07-17 17:35:03,452 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:35:03,454 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:35:07,857 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:35:13,015 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:35:18,099 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:35:18,455 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:35:18,456 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:35:21,724 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 17:35:21,732 DEBUG   SenderThread:23356 [sender.py:send():369] send: history
+2023-07-17 17:35:21,733 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 17:35:21,739 INFO    SenderThread:23356 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 17:35:21,741 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-summary.json
+2023-07-17 17:35:22,758 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:35:23,922 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:35:29,036 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:35:33,112 DEBUG   SenderThread:23356 [sender.py:send():369] send: stats
+2023-07-17 17:35:33,460 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:35:33,461 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:35:34,685 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:35:39,751 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:35:44,804 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:35:48,140 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 17:35:48,141 DEBUG   SenderThread:23356 [sender.py:send():369] send: history
+2023-07-17 17:35:48,142 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 17:35:48,143 INFO    SenderThread:23356 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 17:35:48,149 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-summary.json
+2023-07-17 17:35:48,451 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:35:48,452 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:35:49,182 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:35:50,737 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:35:55,806 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:36:00,891 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:36:03,155 DEBUG   SenderThread:23356 [sender.py:send():369] send: stats
+2023-07-17 17:36:03,459 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:36:03,462 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:36:06,499 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:36:11,552 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:36:14,217 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 17:36:14,217 DEBUG   SenderThread:23356 [sender.py:send():369] send: history
+2023-07-17 17:36:14,218 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 17:36:14,219 INFO    SenderThread:23356 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 17:36:14,483 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-summary.json
+2023-07-17 17:36:17,278 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:36:17,559 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:36:18,461 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:36:18,461 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:36:22,735 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:36:27,809 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:36:32,879 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:36:33,153 DEBUG   SenderThread:23356 [sender.py:send():369] send: stats
+2023-07-17 17:36:33,485 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 17:36:33,485 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 17:36:38,770 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:36:40,410 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 17:36:40,411 DEBUG   SenderThread:23356 [sender.py:send():369] send: history
+2023-07-17 17:36:40,411 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 17:36:40,417 INFO    SenderThread:23356 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 17:36:40,978 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-summary.json
+2023-07-17 17:36:40,979 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:36:41,582 DEBUG   SenderThread:23356 [sender.py:send():369] send: telemetry
+2023-07-17 17:36:41,584 DEBUG   SenderThread:23356 [sender.py:send():369] send: exit
+2023-07-17 17:36:41,584 INFO    SenderThread:23356 [sender.py:send_exit():574] handling exit code: 0
+2023-07-17 17:36:41,584 INFO    SenderThread:23356 [sender.py:send_exit():576] handling runtime: 278
+2023-07-17 17:36:41,585 INFO    SenderThread:23356 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 17:36:41,585 INFO    SenderThread:23356 [sender.py:send_exit():582] send defer
+2023-07-17 17:36:41,586 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:41,586 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-17 17:36:41,586 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:41,586 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-07-17 17:36:41,586 INFO    SenderThread:23356 [sender.py:transition_state():602] send defer: 1
+2023-07-17 17:36:41,586 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:41,587 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-17 17:36:41,587 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:41,587 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-07-17 17:36:41,587 INFO    SenderThread:23356 [sender.py:transition_state():602] send defer: 2
+2023-07-17 17:36:41,587 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:41,587 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-17 17:36:41,587 INFO    HandlerThread:23356 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-17 17:36:41,587 DEBUG   SystemMonitor:23356 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-17 17:36:41,588 DEBUG   SystemMonitor:23356 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-17 17:36:41,589 INFO    HandlerThread:23356 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-17 17:36:41,589 INFO    HandlerThread:23356 [interfaces.py:finish():202] Joined disk monitor
+2023-07-17 17:36:41,589 INFO    HandlerThread:23356 [interfaces.py:finish():202] Joined memory monitor
+2023-07-17 17:36:41,589 INFO    HandlerThread:23356 [interfaces.py:finish():202] Joined network monitor
+2023-07-17 17:36:41,590 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:41,590 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-07-17 17:36:41,590 INFO    SenderThread:23356 [sender.py:transition_state():602] send defer: 3
+2023-07-17 17:36:41,590 DEBUG   SenderThread:23356 [sender.py:send():369] send: stats
+2023-07-17 17:36:41,590 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:41,590 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-17 17:36:41,591 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:41,591 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-07-17 17:36:41,591 INFO    SenderThread:23356 [sender.py:transition_state():602] send defer: 4
+2023-07-17 17:36:41,591 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:41,591 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-17 17:36:41,591 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:41,591 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-07-17 17:36:41,591 INFO    SenderThread:23356 [sender.py:transition_state():602] send defer: 5
+2023-07-17 17:36:41,592 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:41,592 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-17 17:36:41,592 DEBUG   SenderThread:23356 [sender.py:send():369] send: summary
+2023-07-17 17:36:41,593 INFO    SenderThread:23356 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 17:36:41,593 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:41,594 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-07-17 17:36:41,594 INFO    SenderThread:23356 [sender.py:transition_state():602] send defer: 6
+2023-07-17 17:36:41,594 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:41,594 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-17 17:36:41,594 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:41,594 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-07-17 17:36:41,599 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 17:36:41,895 INFO    SenderThread:23356 [sender.py:transition_state():602] send defer: 7
+2023-07-17 17:36:41,896 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:41,896 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-17 17:36:41,896 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:41,897 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-07-17 17:36:41,993 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\config.yaml
+2023-07-17 17:36:41,993 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-summary.json
+2023-07-17 17:36:42,598 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-17 17:36:42,834 INFO    SenderThread:23356 [sender.py:transition_state():602] send defer: 8
+2023-07-17 17:36:42,834 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: poll_exit
+2023-07-17 17:36:42,835 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:42,836 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-17 17:36:42,837 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:42,838 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-07-17 17:36:42,839 INFO    SenderThread:23356 [job_builder.py:build():240] Attempting to build job artifact
+2023-07-17 17:36:42,841 INFO    SenderThread:23356 [job_builder.py:build():274] no source found
+2023-07-17 17:36:42,842 INFO    SenderThread:23356 [sender.py:transition_state():602] send defer: 9
+2023-07-17 17:36:42,842 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:42,843 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-17 17:36:42,844 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:42,844 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-07-17 17:36:42,844 INFO    SenderThread:23356 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-07-17 17:36:43,005 INFO    SenderThread:23356 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:36:43,006 INFO    SenderThread:23356 [dir_watcher.py:finish():389] scan: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files
+2023-07-17 17:36:43,007 INFO    SenderThread:23356 [dir_watcher.py:finish():403] scan save: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\config.yaml config.yaml
+2023-07-17 17:36:43,008 INFO    SenderThread:23356 [dir_watcher.py:finish():403] scan save: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log output.log
+2023-07-17 17:36:43,018 INFO    SenderThread:23356 [dir_watcher.py:finish():403] scan save: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\requirements.txt requirements.txt
+2023-07-17 17:36:43,027 INFO    SenderThread:23356 [dir_watcher.py:finish():403] scan save: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-metadata.json wandb-metadata.json
+2023-07-17 17:36:43,027 INFO    SenderThread:23356 [dir_watcher.py:finish():403] scan save: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-summary.json wandb-summary.json
+2023-07-17 17:36:43,037 INFO    SenderThread:23356 [sender.py:transition_state():602] send defer: 10
+2023-07-17 17:36:43,038 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:43,038 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-17 17:36:43,039 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:43,043 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-07-17 17:36:43,044 INFO    SenderThread:23356 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-17 17:36:43,609 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-17 17:36:43,609 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: poll_exit
+2023-07-17 17:36:43,613 INFO    wandb-upload_0:23356 [upload_job.py:push():133] Uploaded file C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\config.yaml
+2023-07-17 17:36:44,005 INFO    wandb-upload_1:23356 [upload_job.py:push():133] Uploaded file C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\output.log
+2023-07-17 17:36:44,156 INFO    wandb-upload_3:23356 [upload_job.py:push():133] Uploaded file C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\wandb-summary.json
+2023-07-17 17:36:44,174 INFO    wandb-upload_2:23356 [upload_job.py:push():133] Uploaded file C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\files\requirements.txt
+2023-07-17 17:36:44,385 INFO    Thread-15 (_thread_body):23356 [sender.py:transition_state():602] send defer: 11
+2023-07-17 17:36:44,386 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:44,386 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-17 17:36:44,387 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:44,387 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-07-17 17:36:44,387 INFO    SenderThread:23356 [file_pusher.py:join():164] waiting for file pusher
+2023-07-17 17:36:44,387 INFO    SenderThread:23356 [sender.py:transition_state():602] send defer: 12
+2023-07-17 17:36:44,387 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:44,388 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-17 17:36:44,388 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:44,388 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-07-17 17:36:44,617 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-17 17:36:45,148 INFO    SenderThread:23356 [sender.py:transition_state():602] send defer: 13
+2023-07-17 17:36:45,149 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: poll_exit
+2023-07-17 17:36:45,150 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:45,151 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-17 17:36:45,152 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:45,152 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-07-17 17:36:45,153 INFO    SenderThread:23356 [sender.py:transition_state():602] send defer: 14
+2023-07-17 17:36:45,154 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 17:36:45,155 DEBUG   SenderThread:23356 [sender.py:send():369] send: final
+2023-07-17 17:36:45,155 INFO    HandlerThread:23356 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-17 17:36:45,156 DEBUG   SenderThread:23356 [sender.py:send():369] send: footer
+2023-07-17 17:36:45,157 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: defer
+2023-07-17 17:36:45,157 INFO    SenderThread:23356 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-07-17 17:36:45,160 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-17 17:36:45,161 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: server_info
+2023-07-17 17:36:45,162 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-17 17:36:45,162 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: poll_exit
+2023-07-17 17:36:45,163 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-17 17:36:45,164 DEBUG   SenderThread:23356 [sender.py:send_request():396] send_request: server_info
+2023-07-17 17:36:45,617 DEBUG   HandlerThread:23356 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-17 17:36:45,618 INFO    HandlerThread:23356 [handler.py:finish():854] shutting down handler
+2023-07-17 17:36:46,167 INFO    WriterThread:23356 [datastore.py:close():298] close: C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230717_173201-p0l8h1pw\run-p0l8h1pw.wandb
+2023-07-17 17:36:46,619 INFO    SenderThread:23356 [sender.py:finish():1526] shutting down sender
+2023-07-17 17:36:46,619 INFO    SenderThread:23356 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-17 17:36:46,619 INFO    SenderThread:23356 [file_pusher.py:join():164] waiting for file pusher

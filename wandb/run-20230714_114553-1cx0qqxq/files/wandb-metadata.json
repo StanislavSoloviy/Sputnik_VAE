@@ -1,0 +1,36 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.4",
+    "heartbeatAt": "2023-07-14T04:45:54.586989",
+    "startedAt": "2023-07-14T04:45:53.304347",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\motom\\Desktop\\Python\\Sputnik_VAE\\test_wandb.py",
+    "codePath": "test_wandb.py",
+    "host": "WS0001",
+    "username": "Solsa",
+    "executable": "C:\\Users\\motom\\Desktop\\Python\\Sputnik_VAE\\venv\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1600.0,
+        "min": 0.0,
+        "max": 1800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1600.0,
+            "min": 0.0,
+            "max": 1800.0
+        }
+    ],
+    "disk": {
+        "total": 463.34703063964844,
+        "used": 463.10458755493164
+    },
+    "memory": {
+        "total": 15.810821533203125
+    }
+}

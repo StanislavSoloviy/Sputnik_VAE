@@ -1,0 +1,27 @@
+2023-07-14 12:03:55,447 INFO    MainThread:14172 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-14 12:03:55,447 INFO    MainThread:14172 [wandb_setup.py:_flush():76] Configure stats pid to 14172
+2023-07-14 12:03:55,447 INFO    MainThread:14172 [wandb_setup.py:_flush():76] Loading settings from C:\Users\motom\.config\wandb\settings
+2023-07-14 12:03:55,447 INFO    MainThread:14172 [wandb_setup.py:_flush():76] Loading settings from C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\settings
+2023-07-14 12:03:55,447 INFO    MainThread:14172 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-14 12:03:55,447 INFO    MainThread:14172 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-14 12:03:55,449 INFO    MainThread:14172 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'test2.py', 'program': 'C:\\Users\\motom\\Desktop\\Python\\Sputnik_VAE\\test2.py'}
+2023-07-14 12:03:55,450 INFO    MainThread:14172 [wandb_init.py:_log_setup():507] Logging user logs to C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230714_120355-gh1pyw17\logs\debug.log
+2023-07-14 12:03:55,450 INFO    MainThread:14172 [wandb_init.py:_log_setup():508] Logging internal logs to C:\Users\motom\Desktop\Python\Sputnik_VAE\wandb\run-20230714_120355-gh1pyw17\logs\debug-internal.log
+2023-07-14 12:03:55,451 INFO    MainThread:14172 [wandb_init.py:init():547] calling init triggers
+2023-07-14 12:03:55,451 INFO    MainThread:14172 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'layer_1': 512, 'activation_1': 'relu', 'dropout': 0.3144856777487399, 'layer_2': 10, 'activation_2': 'softmax', 'optimizer': 'sgd', 'loss': 'sparse_categorical_crossentropy', 'metric': 'accuracy', 'epoch': 8, 'batch_size': 256}
+2023-07-14 12:03:55,452 INFO    MainThread:14172 [wandb_init.py:init():596] starting backend
+2023-07-14 12:03:55,452 INFO    MainThread:14172 [wandb_init.py:init():600] setting up manager
+2023-07-14 12:03:55,461 INFO    MainThread:14172 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-07-14 12:03:55,471 INFO    MainThread:14172 [wandb_init.py:init():606] backend started and connected
+2023-07-14 12:03:55,489 INFO    MainThread:14172 [wandb_init.py:init():705] updated telemetry
+2023-07-14 12:03:55,494 INFO    MainThread:14172 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-14 12:03:56,168 INFO    MainThread:14172 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-14 12:03:56,474 INFO    MainThread:14172 [wandb_run.py:_on_init():2182] got version response 
+2023-07-14 12:03:56,474 INFO    MainThread:14172 [wandb_init.py:init():789] starting run threads in backend
+2023-07-14 12:03:56,626 INFO    MainThread:14172 [wandb_run.py:_console_start():2152] atexit reg
+2023-07-14 12:03:56,628 INFO    MainThread:14172 [wandb_run.py:_redirect():2007] redirect: SettingsConsole.WRAP_RAW
+2023-07-14 12:03:56,628 INFO    MainThread:14172 [wandb_run.py:_redirect():2072] Wrapping output streams.
+2023-07-14 12:03:56,628 INFO    MainThread:14172 [wandb_run.py:_redirect():2097] Redirects installed.
+2023-07-14 12:03:56,629 INFO    MainThread:14172 [wandb_init.py:init():830] run started, returning control to user process
+2023-07-14 12:04:15,465 WARNING MsgRouterThr:14172 [router.py:message_loop():77] message_loop has been closed

@@ -1,0 +1,2 @@
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.sample of <tensorflow.python.eager.polymorphic_function.tf_method_target.TfMethodTarget object at 0x0000020FD8BA11E0>> and will run it as-is.
+Cause: mangled names are not yet supported

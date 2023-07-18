@@ -1,0 +1,12 @@
+Epoch 1/8
+45/47 [===========================>..] - ETA: 0s - loss: 2.1011 - accuracy: 0.2756
+Traceback (most recent call last):
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\test_wandb.py", line 56, in <module>
+    history = model.fit(x=x_train, y=y_train,
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\wandb\integration\keras\callbacks\model_checkpoint.py", line 145, in on_epoch_end
+    if self.is_old_tf_keras_version:
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\wandb\integration\keras\callbacks\model_checkpoint.py", line 200, in is_old_tf_keras_version
+    if parse_version(tf.keras.__version__) < parse_version("2.6.0"):
+AttributeError: module 'tensorflow.keras' has no attribute '__version__'

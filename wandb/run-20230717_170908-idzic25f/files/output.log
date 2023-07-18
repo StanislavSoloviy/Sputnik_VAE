@@ -1,0 +1,37 @@
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.sample of <tensorflow.python.eager.polymorphic_function.tf_method_target.TfMethodTarget object at 0x0000013E811BB790>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.encode of <neural_network.NeuralNetwork object at 0x0000013ECD41BF70>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.decode of <neural_network.NeuralNetwork object at 0x0000013ECD41BF70>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+Epoch: 1, Test set ELBO: -111235.9375, time elapse for current epoch: 28.38965892791748
+Epoch: 2, Test set ELBO: -111404.109375, time elapse for current epoch: 24.60230541229248
+Epoch: 3, Test set ELBO: -110734.875, time elapse for current epoch: 26.9960196018219
+Epoch: 4, Test set ELBO: -109894.953125, time elapse for current epoch: 27.727871894836426
+Epoch: 5, Test set ELBO: -109126.9765625, time elapse for current epoch: 36.61058592796326
+Epoch: 6, Test set ELBO: -107107.4375, time elapse for current epoch: 30.60549259185791
+Epoch: 7, Test set ELBO: -104991.9140625, time elapse for current epoch: 28.737595796585083
+Epoch: 8, Test set ELBO: -103755.8984375, time elapse for current epoch: 30.54198455810547
+Epoch: 9, Test set ELBO: -103554.625, time elapse for current epoch: 29.675474405288696
+Epoch: 10, Test set ELBO: -103757.90625, time elapse for current epoch: 27.92453098297119
+Модель обучена
+Модель сохранена
+Время на обучение модели 332.3992874000105
+C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+WARNING:tensorflow:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:tensorflow:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Traceback (most recent call last):
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\main.py", line 88, in <module>
+    plot_latent_images(model, 5)
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\main.py", line 38, in plot_latent_images
+    digit = tf.reshape(x_decoded[0], (digit_size, digit_size))
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\tensorflow\python\eager\execute.py", line 53, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.InvalidArgumentError: {{function_node __wrapped__Reshape_device_/job:localhost/replica:0/task:0/device:CPU:0}} Input to reshape is a tensor with 150528 values, but the requested shape has 50176 [Op:Reshape]
+tfp.distributions.Normal("Normal", batch_shape=[], event_shape=[], dtype=float32)

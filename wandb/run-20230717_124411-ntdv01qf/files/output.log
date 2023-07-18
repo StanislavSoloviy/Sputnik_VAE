@@ -1,0 +1,19 @@
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.decode of <neural_network.NeuralNetwork object at 0x000001F41B3167A0>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <bound method NeuralNetwork.encode of <neural_network.NeuralNetwork object at 0x000001F41B3167A0>> and will run it as-is.
+Cause: mangled names are not yet supported
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+Traceback (most recent call last):
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\main.py", line 24, in <module>
+    model.train()
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\neural_network.py", line 158, in train
+    train_step(self, train_x, self.__optimizer)
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\venv\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\motom\AppData\Local\Temp\__autograph_generated_file0wmbd1v5.py", line 16, in tf__train_step
+    gradients = ag__.converted_call(ag__.ld(tape).gradient, (ag__.ld(loss), ag__.ld(model).trainable_variables), None, fscope)
+AttributeError: in user code:
+    File "C:\Users\motom\Desktop\Python\Sputnik_VAE\neural_network.py", line 134, in train_step  *
+        gradients = tape.gradient(loss, model.trainable_variables)
+    AttributeError: 'NeuralNetwork' object has no attribute 'trainable_variables'

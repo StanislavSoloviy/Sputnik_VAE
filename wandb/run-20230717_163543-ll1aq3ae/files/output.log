@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\main.py", line 63, in <module>
+    model.train()
+  File "C:\Users\motom\Desktop\Python\Sputnik_VAE\neural_network.py", line 153, in train
+    self.generate_and_save_images(0, test_sample)
+UnboundLocalError: local variable 'test_sample' referenced before assignment
